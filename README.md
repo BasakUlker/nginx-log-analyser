@@ -22,23 +22,19 @@ Basic knowledge of shell scripting
 
 ## Usage
 
-1. Download the log file:
-```
-wget -O nginx-access.log "https://gist.githubusercontent.com/kamranahmedse/e66c3b9ea89a1a030d3b739eeeef22d0/raw/77fb3ac837a73c4f0206e78a236d885590b7ae35/nginx-access.log"
-```
-
-2. Make the script executable:
+1. Make the script executable:
 ```
 chmod +x log_analyzer.sh
 ```
 
-3. Run the script:
+2. Run the script:
 ```
 source log_analyzer.sh 
 ```
 
 ## Sample Output
 
+```
 Top 5 IP addresses with the most requests:
 45.76.135.253 - 1000 requests
 142.93.143.8 - 600 requests
@@ -59,6 +55,7 @@ Top 5 response status codes:
 500 - 50 requests
 401 - 30 requests
 304 - 20 requests
+```
 
 ## Notes
 
